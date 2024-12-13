@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Recebidos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Dados do Formulário</h1>
+    <table id="fornecedor">
+        <thead>
+            <tr>
+                <th class="centralizado">Nome</th>
+                <th class="centralizado">Email</th>
+                <th class="centralizado">Fornecedor</th>
+                <th class="centralizado">Produto</th>
+                <th class="centralizado no-print">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-container"></tbody>
+    </table>
+    <!-- <div id="tabela-container"></div>  -->
+    <div class="no-print">
+        <button onclick="window.print()">Imprimir</button>
+    </div>
+    <br>
+    <div class="no-print">
+    <button onclick="window.location.href='index.html'" type="submit">Voltar</button>
+    </div>
+    <script src="tabela.js"></script>
+</body>
+</html>
